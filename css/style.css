@@ -1214,14 +1214,13 @@ body {
 
 .sec4__img {
   max-height: 555px;
-  margin-left: auto;
 }
 
 .sec4__social {
   order: -1;
   display: flex;
   -ms-writing-mode: tb;
-      writing-mode: tb;
+  writing-mode: tb;
   max-height: 465px;
   height: 100%;
   align-items: center;
@@ -1229,7 +1228,7 @@ body {
   align-content: center;
   justify-content: space-between;
   transform: rotate(180deg);
-  margin-left:15px;
+  margin-left: 15px;
 }
 
 .sec4__social-item {
@@ -2980,11 +2979,6 @@ body {
 .quiz__passive {
   display: none;
   transform: rotateY(90deg);
-}
-@media screen and (max-width: 1440px) {
-    .sec4__img {
-        margin: 0;
-    }
 }
 
 @media screen and (max-width: 1280px) {
